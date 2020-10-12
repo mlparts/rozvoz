@@ -186,7 +186,8 @@ border-radius: 3px;
 }
 
 .c-contact-left h2{
-  font-weight: 700;
+  font-weight: 700; 
+  margin-top: 0;
   margin-bottom: 60px;
 }
 .c-contact-qcontact{
@@ -323,3 +324,10 @@ border-radius: 3px;
 .c-contact-section td{
  padding: 10px 10px
 }
+@media (max-width:600px){
+  .c-contact-qcontact {
+    padding: 5px 10px;
+    width: 100%;
+  }
+}
+  
