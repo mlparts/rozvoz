@@ -233,9 +233,7 @@ border-radius: 3px;
 .c-contact-form .km-form td{
   padding-right: 0;
 }
-.c-contact-form .km-form tr:last-child{
-  display: none;
-}
+
 @media (max-width:991px){
   .c-contact-inner{
     flex-direction: column;
