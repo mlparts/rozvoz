@@ -233,7 +233,9 @@ border-radius: 3px;
 .c-contact-form .km-form td{
   padding-right: 0;
 }
-
+.c-contact-form .km-form tr:last-child{
+  display: none;
+}
 @media (max-width:991px){
   .c-contact-inner{
     flex-direction: column;
@@ -335,7 +337,9 @@ border-radius: 3px;
     width: 100%;
   }
 }
-  
+.c-doprava-thumb img{
+  max-width: 100%;
+}
 
 #mapa{
   display: none;
