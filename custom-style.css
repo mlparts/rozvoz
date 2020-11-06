@@ -234,7 +234,7 @@ border-radius: 3px;
   padding-right: 0;
 }
 .c-contact-form .km-form tr:last-child{
-  display: block;
+  display: flex;
 }
 @media (max-width:991px){
   .c-contact-inner{
