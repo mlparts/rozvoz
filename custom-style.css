@@ -352,7 +352,7 @@ border-radius: 3px;
 }
 @media (min-width:768px){
   .hide-phone {
-    display: block;
+    display: none;
   }
 }
 @media (max-width:767px){
