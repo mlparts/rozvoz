@@ -344,3 +344,12 @@ border-radius: 3px;
 #mapa{
   display: none;
 }
+
+.hide-desktop {
+  display: none;
+}
+@media (max-width:768px){
+  .hide-desktop {
+    display: block;
+  }
+}
